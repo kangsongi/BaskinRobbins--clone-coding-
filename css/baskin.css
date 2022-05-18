@@ -45,9 +45,6 @@ header {
 
 /* nav 
 ---------------------------------------------------*/
-nav {
-    background-color: pink;
-}
 .nav-sev > li {
     float: left;
     margin: 10px 30px 0px 0px;
@@ -209,7 +206,7 @@ nav {
     margin-left:125px;
 }
 
-/* SNS
+/* SNS title
 ---------------------------------------------------*/
 #sns {
     height: 120px;
@@ -231,10 +228,76 @@ nav {
 
 /* insta
 ---------------------------------------------------*/
+#insta {
+    width:1000px;
+    margin: auto;
+    height: 900px;
+}
 #insta > img{
-    margin: 60px 0px 0px 480px;
+    margin: 60px 0px 0px 360px;
+}
+/* 한줄에 5개씩 배치 */
+#gall > ul > li {
+    width: 20%;
+    float : left;
+    
+}
+#gall > ul > li > img {
+    display: block;
+    width: 190px;
+    padding: 5px;
+    object-fit: cover;
 }
 
 
+/* footer
+---------------------------------------------------*/
+footer {
+    height: 500px;
+}
+#footer-1 > ul > li {
+    float: left;
+    font-size: 13px;
+    margin: 50px 0px 0px 0px;
+}
+#footer-1 > ul > li > a {
+    color: black;
+}
+#footer-1 > ul > li > a:nth-child(1) {
+    margin-left:75px;
+}
+/* 두번째 ul */
+#footer-2 > ul > li {
+    float:left;
+    margin: 30px 50px 0px 0px;
+}
+#footer-2 > ul > li:nth-child(1) {
+    margin-left: 320px;
+}
+select {
+    margin: 35px 0px 0px 40px;
+}
+/* footer-logo */
+#footer-logo {
+    margin-top:80px;
+    margin: 140px 0px 0px 550px;
+}
+/* 세번째 ul */
+#footer-3 {
+    font-size: 11px;
+}
+#footer-3 > ul > li {
+    float : left;
+    font-size: 11px;
+    margin: 50px 20px 10px 0px;
+}
+#footer-3 > ul > li:nth-child(1) {
+    margin-left:300px;
+}
 
-
+#footer-3 > span {
+    position: relative;
+    top: 70px;
+    right: 450px;
+    line-height: 20px;
+}
